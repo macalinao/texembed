@@ -31,6 +31,6 @@
   "dependencies": {
     "express": "^4.10.7",
     "latex": "0.0.1",
-    "mathmode": "0.0.4"
+    "mathmode": "git://github.com/simplyianm/mathmode.git"
   }
 }
