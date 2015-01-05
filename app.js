@@ -1,5 +1,4 @@
 var mathmode = require('mathmode');
-var gm = require('gm');
 var express = require('express');
 
 var app = express();
