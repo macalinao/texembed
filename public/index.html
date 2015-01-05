@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>TeX Embed</title>
+  <style type="text/css">
+    div {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -250px;
+      margin-top: -250px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Embed TeX in your documents easily.</h1>
+    <pre>&lt;img src="http://texembed.herokuapp.com/e^{i %5Cpi} + 1 = 0" /&gt;</pre>
+    <img src="http://texembed.herokuapp.com/e^{i %5Cpi} + 1 = 0" />
+    <br /><br />
+    <a href="https://github.com/simplyianm/texembed">View on GitHub</a>
+    <br /><br />
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="simplyianm">Tweet</a>
+    <script>
+      ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + '://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, 'script', 'twitter-wjs');
+    </script>
+  </div>
+</body>
+
+</html>
