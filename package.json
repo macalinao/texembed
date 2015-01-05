@@ -1,0 +1,35 @@
+{
+  "name": "texembed",
+  "version": "0.1.0",
+  "description": "Embed LaTeX as a service",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplyianm/texembed.git"
+  },
+  "keywords": [
+    "latex",
+    "tex",
+    "embed",
+    "service",
+    "markdown",
+    "image"
+  ],
+  "author": "Ian Macalinao <me@ian.pw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplyianm/texembed/issues"
+  },
+  "homepage": "https://github.com/simplyianm/texembed",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "gm": "^1.17.0",
+    "latex": "0.0.1"
+  }
+}
